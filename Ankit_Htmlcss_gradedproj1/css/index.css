@@ -1,0 +1,222 @@
+.header {
+  background-color: darkgray;
+  text-align: right;
+  height: 5em;
+}
+.header h1 {
+  padding-top: 1em;
+  padding-right: 4em;
+  color: white;
+}
+
+.nav {
+  background-color: grey;
+  height: 2em;
+  overflow: hidden;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0.8em;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  color: white;
+}
+
+div .nav-sub-links {
+  display: none;
+  list-style: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 0.5em;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.nav-sub-links a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.nav-sub-links li {
+  height: 2em;
+}
+.list li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-link:hover .nav-sub-links {
+  display: block;
+  color: aqua;
+}
+
+.nav-link:hover {
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 2em;
+}
+
+.footer div {
+  padding-top: 0.25em;
+  color: white;
+}
+
+#offers {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 100%;
+}
+.animation {
+  width: 100%;
+  height: 100%;
+  border: 2px solid steelblue;
+}
+#products {
+  width: 100%;
+  margin: auto;
+}
+
+.covid-care {
+  position: relative;
+  display: inline-block;
+  padding: 5em;
+  height: 220px;
+  width: 280px;
+  border-radius: 10px;
+  background-color: rgba(235, 188, 235, 0.2);
+}
+.covid-care:hover {
+  margin: 0;
+  height: 260px;
+  width: 320px;
+}
+.inner-div {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 150px;
+  width: 100%;
+}
+.covid-care h3 {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 3%;
+}
+.inner-div img {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.overlay {
+  position: absolute;
+  height: 10px;
+  bottom: auto;
+  background-color: rgba(235, 188, 235, 0);
+  border-radius: 5px;
+  color: blue;
+  padding: 10px;
+  text-align: left;
+}
+div > button {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  bottom: 5%;
+  height: 2em;
+  width: 82%;
+  border: 2px solid rgba(55, 92, 214, 0.35);
+  border-radius: 5px;
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgba(235, 188, 235, 0.2);
+}
+div > button:focus {
+  background-color: rgb(250, 234, 230);
+  border: 1px solid rgb(0, 255, 76);
+}
+
+form {
+  display: inline-block;
+  position: absolute;
+  margin: 20px;
+  left: 12%;
+  width: 80%;
+  height: 610px;
+}
+.outer-div {
+  position: relative;
+  display: inline-block;
+  width: -webkit-fill-available;
+  height: 610px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#slot-form {
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  height: 610px;
+  overflow: auto;
+  width: 45%;
+  white-space: nowrap;
+}
+.img-div {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  left: 5%;
+  height: 610px;
+  width: 49.65%;
+}
+img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 610px;
+  z-index: 1;
+}
+.text-input {
+  padding-top: 1em;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: medium;
+  height: 3em;
+  width: 250px;
+}
+#d1,
+#t1,
+#district {
+  height: 2em;
+  font-size: large;
+}
+#btn-div {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+button {
+  position: relative;
+  margin-left: 10%;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 5px;
+  background-color: rgb(201, 68, 201);
+  color: white;
+}
